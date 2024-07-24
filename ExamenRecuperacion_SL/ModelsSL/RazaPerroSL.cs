@@ -10,5 +10,6 @@ namespace ExamenRecuperacion_SL.ModelsSL
     {
         public string Nombre { get; set; }
         public List<string> SubBreeds { get; set; }
+        public List<string> Images { get; set; }
     }
 }
