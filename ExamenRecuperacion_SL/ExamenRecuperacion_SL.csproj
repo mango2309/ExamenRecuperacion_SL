@@ -65,7 +65,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="ViewModelsSL\" />
+	  <MauiXaml Update="ViewsSL\MenuMainPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
